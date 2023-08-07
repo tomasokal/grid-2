@@ -1,0 +1,46 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #141414;
+}
+
+.interface
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 80%;
+    left: 0;
+    right: 0;
+    width: 35%;
+    color: #ffffff;
+    font-size: 4vh;
+    padding-top: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.interface > *
+{
+    box-sizing: border-box;
+}
+
+.interface > *:hover
+{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.25);
+}
+
+.interface > *:active
+{
+    transition: all 0s linear;
+    border: 0.15em solid #ffffff;
+    border-radius: 25px;
+}
