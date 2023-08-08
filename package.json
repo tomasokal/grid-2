@@ -1,39 +1,30 @@
 {
-    "main": "index.js",
-    "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "dev": "react-scripts start",
-        "build": "react-scripts build"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "homepage": "https://tomasokal.github.io/boilerPlate",
-    "dependencies": {
-        "@react-three/drei": "^9.32.3",
-        "@react-three/fiber": "^8.8.7",
-        "leva": "^0.9.31",
-        "r3f-perf": "^6.5.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "react-scripts": "^5.0.1",
-        "three": "^0.145.0"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "@iconify/react": "^4.0.1",
-        "gh-pages": "^4.0.0"
-    }
+  "name": "grid-2",
+  "private": true,
+  "version": "0.0.1",
+  "homepage": "https://tomasokal.com/grid-2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.0",
+    "gh-pages": "^5.0.0",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@react-three/csg": "^2.2.0",
+    "@react-three/drei": "^9.70.3",
+    "@react-three/fiber": "^8.13.0",
+    "@react-three/postprocessing": "^2.14.7",
+    "leva": "^0.9.34",
+    "r3f-perf": "^7.1.2",
+    "react": "18.2",
+    "react-dom": "18.2",
+    "three": "^0.153.0",
+    "zustand": "^4.3.8"
+  }
 }
